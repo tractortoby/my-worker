@@ -1,8 +1,10 @@
 name = "my-worker"
 type = "webpack"
-
 account_id = "641d881d253161416045a9d93c1082dd"
 workers_dev = true
-route = ""
-zone_id = ""
 compatibility_date = "2022-08-13"
+
+[env.production]
+worker_dev = false
+route = "https://hello-world-worker.lsliezze.tk/"
+zone_id = "bf75e591b58e9227e29998b436bc898e"
