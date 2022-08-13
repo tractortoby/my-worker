@@ -1,5 +1,5 @@
 name = "my-worker"
-type = "javascript"
+type = "webpack"
 
 account_id = "641d881d253161416045a9d93c1082dd"
 workers_dev = true
