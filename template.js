@@ -2,7 +2,7 @@ import flag from 'country-code-emoji'
 
 const template = cf => {
   const emoji = flag(cf.country) || '👋🏻'
-  
+
   return `
     <!DOCTYPE html>
     <html lang="en">
@@ -32,7 +32,7 @@ const template = cf => {
       </head>
       <body>
         <div class="container">
-          <h1>Hello there! You're connecting from ${cf.country} ${emoji}.</h1>
+          <h1>Hello there! You're connecting from ${cf.city} in ${cf.country} ${emoji}.</h1>
         </div>
       </body>
     </html>
